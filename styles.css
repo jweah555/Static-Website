@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.animal-list {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media ((max-width: 1010px)) {
+    .animal-list {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+
+@media ((max-width: 650px)) {
+    .animal-list {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .animal-list {
+       
+    }
+}
