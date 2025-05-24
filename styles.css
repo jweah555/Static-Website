@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.color {
+    background-color: blue;
+}
+
 /*Home page*/
 .animal-list {
     align-items: center;
@@ -50,9 +54,27 @@
     
 }
 
-/*About Page*/
-.about-header {
+.detail-header {
     margin-top: 2rem;
     text-align: center;
 
 }
+
+/*About Page*/
+.about-h1 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.about-card-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-card {
+    width: 50%;
+}
+
