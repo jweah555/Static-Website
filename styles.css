@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/*Home page*/
 .animal-list {
     align-items: center;
     justify-content: center;
@@ -33,4 +34,25 @@
     .animal-list {
        
     }
+}
+
+/*Detail Page*/
+.animal-box {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-box {
+    width: 35%;
+    
+}
+
+/*About Page*/
+.about-header {
+    margin-top: 2rem;
+    text-align: center;
+
 }
