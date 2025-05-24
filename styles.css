@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+nav {
+    height: 4.5rem;
+}
 
 .color {
     background-color: blue;
@@ -78,3 +81,24 @@
     width: 50%;
 }
 
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #81E7AF;
+    border-radius: 8px;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.icon-list {
+    display: flex;
+    gap: .5rem;
+}
+
+.icon {
+    width: 2.7rem;
+}
